@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Learning</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="overlay">
+        <div class="container">
+            <h1>Welcome To Nathan Weather App</h1>
+            <a href="#" class="btn">Lets Begin</a>
+        </div>
+    </div>
+
+    <form class="weatherForm">
+        <input type="text" class="cityInput" placeholder="Enter city">
+        <button type="submit">Get Weather</button>
+    </form>
+
+    <div class="card" style="display: none;">
+        <h1 class="cityDisplay">Miami</h1>
+        <p class="tempDisplay">90°</p>
+        <p class="humidityDisplay">Humidity: 75%</p>
+        <p class="descDsiplay">Clear Skies</p>
+        <p class="weatherEmoji">☀️</p>
+        <p class="errorDisplay">Please enter a city</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
